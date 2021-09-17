@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\obj_mesh.h(209,36): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\obj_mesh.h(213,36): warning C4267: '=': conversion from 'size_t' to 'GLulong', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(197,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(228,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(239,24): warning C4244: 'initializing': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(347,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(348,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(352,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(353,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(354,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\4Y3T - 21\GDGRAPX\GDGRAPX_Beta\GDGRAPX_Beta\main.cpp(355,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Assets\backpack\backpack.obj : fatal error LNK1136: invalid or corrupt file

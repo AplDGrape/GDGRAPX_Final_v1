@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{69efa05b-7cb3-4218-8ad8-76ef1191cf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\skybox">
+      <UniqueIdentifier>{c1447d9d-72f6-4046-97f2-4d653b46fb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c87befdd-9c7d-44fe-adee-549343857593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\backpack">
+      <UniqueIdentifier>{5214d4a4-88f7-4432-823b-ec080ed1fadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Liberty">
+      <UniqueIdentifier>{0bda9ae9-8fbf-4590-80b7-34b2ad58b6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Road">
+      <UniqueIdentifier>{3b032703-1584-44b2-9735-6e853ff99e5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shader\fragment.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\vertex.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\skybox_fragment.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\skybox_vertex.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\backpack\backpack.mtl">
+      <Filter>Assets\backpack</Filter>
+    </None>
+    <None Include="Assets\Liberty\LibertStatue.mtl">
+      <Filter>Assets\Liberty</Filter>
+    </None>
+    <None Include="Phong_vertex.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Phong_normal_fragment.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Phong_fragment.shader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Road\untitled.3ds">
+      <Filter>Assets\Road</Filter>
+    </None>
+    <None Include="Assets\Road\untitled.dae">
+      <Filter>Assets\Road</Filter>
+    </None>
+    <None Include="Assets\Road\untitled.fbx">
+      <Filter>Assets\Road</Filter>
+    </None>
+    <None Include="Assets\Road\untitled.mtl">
+      <Filter>Assets\Road</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibertyStatue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadNormalShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMultipleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\top.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\back.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\bottom.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\front.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\left.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\APOLINAR_Francis_GRAPHIX\Assets\skybox\right.png">
+      <Filter>Assets\skybox</Filter>
+    </Image>
+    <Image Include="Assets\backpack\diffuse.jpg">
+      <Filter>Assets\backpack</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-PortaBronzo-1.bmp">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-DecorazioniMarmo-2.bmp">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-GreenBronze-1.bmp">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-MattoniBasamento-1.bmp">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-Pavimentazione-1.bmp">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-GreenBronze-1_normal.png">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Liberty\Liberty-PortaBronzo-1_normal.png">
+      <Filter>Assets\Liberty</Filter>
+    </Image>
+    <Image Include="Assets\Road\CasetteBeige1.jpg">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\CasetteBeige1_normal.png">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\render.png">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\render2.png">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\render4.png">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\rua_com_faixada.jpg">
+      <Filter>Assets\Road</Filter>
+    </Image>
+    <Image Include="Assets\Road\rua_com_faixada_normal.png">
+      <Filter>Assets\Road</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Assets\backpack\backpack.obj">
+      <Filter>Assets\backpack</Filter>
+    </Object>
+    <Object Include="Assets\Liberty\LibertStatue.obj">
+      <Filter>Assets\Liberty</Filter>
+    </Object>
+    <Object Include="Assets\Road\untitled.obj">
+      <Filter>Assets\Road</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
